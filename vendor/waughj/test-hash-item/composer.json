@@ -1,0 +1,22 @@
+{
+    "name": "waughj/test-hash-item",
+    "description": "A collection o' helper functions for testing properties o' a hash item",
+    "keywords": [ "hash", "tests" ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+		"files": [ "src/TestHashItem.php" ]
+    }
+}

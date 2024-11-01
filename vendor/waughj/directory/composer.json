@@ -1,0 +1,25 @@
+{
+    "name": "waughj/directory",
+    "description": "Simple class for encapsulating file directory object.",
+    "keywords": [ "directory", "file" ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "libraryt",
+    "require": {
+		"php": ">=7.0",
+		"waughj/verified-arguments-same-type": "*"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\Directory\\": "src/"
+        }
+    }
+}
